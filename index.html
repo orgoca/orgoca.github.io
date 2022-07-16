@@ -43,6 +43,10 @@
             height: 500px;
         }
     </style>
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 
 <body>
@@ -54,6 +58,15 @@
         suscipit similique modi excepturi consectetur accusamus ratione accusantium fugiat id expedita quia distinctio, molestiae mollitia sequi possimus. Exercitationem, recusandae ipsa! Quas error, provident harum inventore omnis cupiditate nihil beatae
         vero fugit quaerat, porro nemo, explicabo dolorum itaque amet maxime vel debitis pariatur doloremque mollitia ipsa necessitatibus laboriosam. Ullam, provident quod.
     </div>
+    <div id="vis"></div>
+  
+  <script>
+    const spec = "chart.json";
+  	vegaEmbed("#vis", spec)
+    	// result.view provides access to the Vega View API
+      .then(result => console.log(result))
+      .catch(console.warn);
+  </script>
     <hr />
     <section>
         <h2>Here comes my viz</h2>
