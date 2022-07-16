@@ -1,0 +1,86 @@
+const students = [
+  {
+    name: "Andres de la Rosa",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U01G18ALL1K-876fff5cd2af-72",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Brendan Mattina",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U010S4BREDV-f3c351dd8358-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Carlos Moreno",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U01S63NCVPA-0daa6e7306a8-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Carlos Ortiz-Gomez",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U015C5R4HQB-2a70af55c8d6-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Chang Liu",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-UM3DMKAJJ-e50d5f9a9c4c-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Christian Hiebel",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U013KBLEJ1F-eb4363aada10-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Theresa Kuruvilla",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U01R30968E4-0ad8dee2dee1-512",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Radhika Mardikar",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U023NPF7SF9-b0c00d2d0ff1-512",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Gauri Ganjoo",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U01BJ8HJWDU-0696b0c7f3e2-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Joy Jiang",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U016XEB1QD7-5db7732dbfbe-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Justine Taylor",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U010ZE016A1-4d01a85b3ddb-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Mark Haase",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U02JLHXEW7Q-e53099ed24f0-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Tymon Silva",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U020CCVS747-01c3e5724288-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  },
+  {
+    name: "Rashmi Singh",
+    img: "https://ca.slack-edge.com/T0WA5NWKG-U011JH9P4QG-e1d5ac35a5ba-48",
+    var1: Math.random() * (width - margin.left - margin.right),
+    var2: Math.random() * (height - margin.top - margin.bottom)
+  }
+]
