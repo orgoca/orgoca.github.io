@@ -64,7 +64,9 @@
         <div class="holder">
             <svg id="chart"></svg>
             <div class="steps">
-                <div class="step"><script>
+                <div class="step">
+                    <div id="vis"></div>
+                    <script>
                     const spec = "bar.vl.json";
                       vegaEmbed("#vis", spec)
                         // result.view provides access to the Vega View API
