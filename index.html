@@ -58,22 +58,19 @@
         suscipit similique modi excepturi consectetur accusamus ratione accusantium fugiat id expedita quia distinctio, molestiae mollitia sequi possimus. Exercitationem, recusandae ipsa! Quas error, provident harum inventore omnis cupiditate nihil beatae
         vero fugit quaerat, porro nemo, explicabo dolorum itaque amet maxime vel debitis pariatur doloremque mollitia ipsa necessitatibus laboriosam. Ullam, provident quod.
     </div>
-    <div id="vis"></div>
-  
-  <script>
-    const spec = "chart.json";
-  	vegaEmbed("#vis", spec)
-    	// result.view provides access to the Vega View API
-      .then(result => console.log(result))
-      .catch(console.warn);
-  </script>
     <hr />
     <section>
         <h2>Here comes my viz</h2>
         <div class="holder">
             <svg id="chart"></svg>
             <div class="steps">
-                <div class="step">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex veritatis earum itaque culpa magni! Eaque voluptatem sapiente iure possimus ipsam ratione mollitia, sit illum voluptate error unde culpa eveniet officia.</div>
+                <div class="step"><script>
+                    const spec = "bar.vl.json";
+                      vegaEmbed("#vis", spec)
+                        // result.view provides access to the Vega View API
+                      .then(result => console.log(result))
+                      .catch(console.warn);
+                  </script></div>
                 <div class="step">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex veritatis earum itaque culpa magni! Eaque voluptatem sapiente iure possimus ipsam ratione mollitia, sit illum voluptate error unde culpa eveniet officia.</div>
                 <div class="step">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex veritatis earum itaque culpa magni! Eaque voluptatem sapiente iure possimus ipsam ratione mollitia, sit illum voluptate error unde culpa eveniet officia.</div>
                 <div class="step">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex veritatis earum itaque culpa magni! Eaque voluptatem sapiente iure possimus ipsam ratione mollitia, sit illum voluptate error unde culpa eveniet officia.</div>
